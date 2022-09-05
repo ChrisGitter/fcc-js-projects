@@ -1,13 +1,11 @@
 {
   "name": "cash-register",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "jest",
     "build": "babel src -d dist --ignore \"src/**/*.test.ts\" -x .ts"
   },
-  "author": "",
+  "author": "Christian Gitter <mail@christiangitter.de> (https://christiangitter.de)",
   "devDependencies": {
     "@babel/cli": "^7.18.10",
     "@babel/core": "^7.18.13",
